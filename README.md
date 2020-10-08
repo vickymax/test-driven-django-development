@@ -6,10 +6,26 @@ When creating a new application, at first you may not need tests. Tests can be d
 
 As your application grows, it becomes more difficult to grow and to refactor your code. There’s always the risk that a change in one part of your application will break another part. A good collection of automated tests that go along with an application can verify that changes you make to one part of the software do not break another.
 
+## Getting Started
+To get started with this repository make sure [python](https://python.org) and [pipenv](https://pypi.org/project/pipenv/) is installed.
 
-## Installing requirements
+### Clone this repository
 
-	$ pip install -r requirements.txt
+	$ git clone https://github.com/ranapratapissingh/django-test-driven-development.git
+
+
+### change the directory to the application folder.
+
+	$  cd django-test-driven-development/
+
+### activate the shell environment 
+
+	$ pipenv shell
+
+### Install Requiremments
+
+	$ pipenv install -r requirements.txt
+	
 
 ## How to perform TDD Test 
 
